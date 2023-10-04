@@ -9,14 +9,14 @@ const timer = document.querySelector('.timer');
 
 const quiz = [
     {
-        question: "Q. Which of the following is not a CSS box model property?",
-        choices: ["margin", "padding", "border-radius", "border-collapse"],
-        answer: "border-collapse"
+        question: "In what country was Elon Musk born?",
+        choices: ["England","America","South Africa","New Zealand"],
+        answer: "South Africa"
     },
     {
-        question: "Q. Which of the following is not a valid way to declare a function in JavaScript?",
-        choices: ["function myFunction() {}", " let myFunction = function() {};", "myFunction: function() {}", "const myFunction = () => {};"],
-        answer: "myFunction: function() {}"
+        question: "what is the Chemical symbol for gold?",
+        choices: ["Ag","Cl","Mg","Au"],
+        answer: "Au"
     },
     {
         question: "Q. Which of the following is not a JavaScript data type?",
@@ -24,10 +24,16 @@ const quiz = [
         answer: "float"
     },
     {
-        question: "Q. What is the purpose of the this keyword in JavaScript?",
-        choices: ["It refers to the current function.", "It refers to the current object.", "It refers to the parent object.", " It is used for comments."],
-        answer: "It refers to the current object."
-    }
+        question: "Which planet is often referred to as the 'Red planet'?",
+        choices: ["MARS","EARTH","JUPITER","KEPLER"],
+        answer: "MARS"
+    },
+    {
+        question: "How many Gold Medals has India won at Olympics?",
+        choices :["Fifteen","Ten","Six","Twenty"],
+        answer:"Ten"
+    },
+    
 ];
 
 let currentQuestionIndex = 0;
